@@ -1,11 +1,11 @@
 package yourworkhere;
 
-public class Account {
-	private String accountID;
-	private double balance;
-	private String accountType;
-	private String firstName;
-	private String lastName;
+public abstract class Account {
+	protected String accountID;
+	protected double balance;
+	protected String accountType;
+	protected String firstName;
+	protected String lastName;
 	
 	public static void main(String[] args) {
 		
@@ -36,7 +36,7 @@ public class Account {
 	}
 	
 	public String getFirstName() {
-		return this.FirstName;
+		return this.firstName;
 	}
 	
 	public void setFirstName(String firstName) {
@@ -51,5 +51,5 @@ public class Account {
 		this.lastName = lastName;
 	}
 	
-	
+	public abstract IAccountManager getAccountManager();
 }
