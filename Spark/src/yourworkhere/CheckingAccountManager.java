@@ -17,10 +17,13 @@ public class CheckingAccountManager implements IAccountManager {
 	}
 
 	@Override
-	public boolean withdraw(double num) {
+	public boolean withdraw(double num) throws OverdraftException {
 		if (num > 0 & num > this.ca.getBalance()) {
-			this.ca.setBalance(this.ca.getBalance() - (num + this.ca.getOverdraftFee()));
-			return true;
+//			this.ca.setBalance(this.ca.getBalance() - (num + this.ca.getOverdraftFee()));
+//			return true;
+			
+//			instructions unclear if I should still allow withdraw to go through even if an overdraft 
+			throw new OverdraftException();
 		} else if (num > 0 & num <= this.ca.getBalance()) {
 			this.ca.setBalance(this.ca.getBalance() - num);
 			return true;
