@@ -18,6 +18,9 @@ public class BubbleSort {
 		bubbleSort(values);
 		
 		System.out.println(values);
+		
+		int[] a = new int[0];
+		System.out.println(a[1/0]);
 	}
 	
 	public static void bubbleSort(List<Integer> list) {

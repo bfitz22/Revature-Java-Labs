@@ -1,0 +1,27 @@
+div {
+	background-color: blue;
+}
+
+p {
+	color: yellow;
+}
+
+li {
+	font-size: 16pt;
+}
+
+ol > li {
+	font-family: Courier;
+}
+
+ul > li {
+	font-family: Arial; 
+}
+
+.column {
+	width: 50%;
+	float: left;
+}
+
+
+
