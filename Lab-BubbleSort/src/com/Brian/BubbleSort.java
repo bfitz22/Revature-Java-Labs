@@ -10,7 +10,6 @@ public class BubbleSort {
 		values.add(2);
 		values.add(2);
 		values.add(1);
-		values.add(1);
 		values.add(5);
 		
 		System.out.println(values);
