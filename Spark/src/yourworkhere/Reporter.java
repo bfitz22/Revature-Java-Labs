@@ -14,7 +14,7 @@ public class Reporter {
 		return this.ledger.getAllAccounts().size();
 	}
 	
-	public List<Account> getAccountsWithMinimum(int min) {
+	public List<Account> getAccountsWithMinimum(double min) {
 		List<Account> newList = new ArrayList<Account>();
 		List<Account> list = this.ledger.getAllAccounts();
 		for (int i = 0; i < list.size(); i++) {
@@ -32,18 +32,14 @@ public class Reporter {
 		}
 	}
 	
-	public void getNumAccountsByType() {
-		int savings = 0;
-		int checking = 0;
+	public int getNumAccountsByType(String type) {
+		int count = 0;
 		List<Account> list = this.ledger.getAllAccounts();
 		for (int i = 0; i < list.size(); i++) {
-			if (list.get(i).getAccountType() == "savings") {
-				savings++;
-			} else if (list.get(i).getAccountType() == "checking") {
-				checking++;
-			}
-		System.out.println("number of savings accounts: " + savings + 
-				"\nnumber of checking accounts: " + checking);
+			if (list.get(i).getAccountType().equals(type)) {
+				count++;
+			} 
 		}
+		return count; 
 	}
 }

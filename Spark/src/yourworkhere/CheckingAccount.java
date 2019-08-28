@@ -2,12 +2,12 @@ package yourworkhere;
 
 public class CheckingAccount extends Account{
 	private double overdraftFee;
-	private CheckingAccountManager cam;
 	
-//	public static void main(String[] args) {
+	public static void main(String[] args) {
 //		CheckingAccount ca = new CheckingAccount("123", 54, "checking", "Brian", "Fitz", 10);
 //		System.out.println(ca.toString());
-//	}
+//		System.out.println(ca.getAccountManager());
+	}
 	
 	public CheckingAccount() {
 		this.accountID = "8675309";
@@ -44,6 +44,6 @@ public class CheckingAccount extends Account{
 
 	@Override
 	public CheckingAccountManager getAccountManager() {
-		return this.cam;
+		return new CheckingAccountManager(this); 
 	}
 }

@@ -26,7 +26,4 @@ public class SavingsAccountManager implements IAccountManager {
 		} 
 		return false;
 	}
-	
-//	is it necessary to use the getter methods every time here or could I just say sa.balance to get the balance?
-//	for example, use: "if (num > 0 & (this.sa.balance - num) > this.sa.minBalance" instead of what I have on line 21 currently
 }

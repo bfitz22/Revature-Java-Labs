@@ -8,7 +8,6 @@ import java.util.Map;
 public class Ledger {
 	private Map<String, Account> accounts = new HashMap<String, Account>();
 	private static final Ledger instance = new Ledger();
-//	syntax errors forced me to declare Map as new HashMap (and List as new ArrayList on line 52). Is this correct? 
 	
 	private Ledger() {};
 	
@@ -27,6 +26,7 @@ public class Ledger {
 	public Account createAccount(String type, String firstName, String lastName) {
 		if (type == "checking") {
 			CheckingAccount ca = new CheckingAccount();
+			ca.setAccountID(this.getNextAccountID());
 			ca.setAccountType(type);
 			ca.setFirstName(firstName);
 			ca.setLastName(lastName);
@@ -34,6 +34,7 @@ public class Ledger {
 			return ca;
 		} else if (type == "savings") {
 			SavingsAccount sa = new SavingsAccount();
+			sa.setAccountID(this.getNextAccountID());
 			sa.setAccountType(type);
 			sa.setFirstName(firstName);
 			sa.setLastName(lastName);
