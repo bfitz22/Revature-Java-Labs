@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;ca&apos; in &apos;yourworkhere.SavingsAccountManager&apos; to &apos;sa&apos;&#x0D;&#x0A;- Original project: &apos;Spark&apos;&#x0D;&#x0A;- Original element: &apos;yourworkhere.SavingsAccountManager.ca&apos;&#x0D;&#x0A;- Renamed element: &apos;yourworkhere.SavingsAccountManager.sa&apos;&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;ca&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;yourworkhere{SavingsAccountManager.java[SavingsAccountManager^ca" name="sa" references="false" setter="false" stamp="1564788562928" textual="false" version="1.0"/>
+</session>

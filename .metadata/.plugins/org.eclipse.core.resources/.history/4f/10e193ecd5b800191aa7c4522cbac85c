@@ -1,0 +1,36 @@
+package com.Brian;
+
+public class LinkedList {
+	Node head;
+	
+	public LinkedList() {
+		this.head = new Node();
+	}
+	
+	public static void main(String[] args) {
+		LinkedList li = new LinkedList();
+		System.out.println(li);
+	}
+
+	@Override
+	public String toString() {
+		return "LinkedList [head=" + head.data + "]";
+	}
+	
+	public void removeDuplicates(LinkedList list) {
+		Node current = list.head; 
+		Node runner = null; 
+		
+		while (current != null) {
+			runner = current;
+			while (runner.next != null) {
+				if (runner.next.data == current.data) {
+					runner.next = runner.next.next;
+				} else {
+					runner = runner.next;
+				}
+			}
+			current = current.next;
+		}
+	}
+}

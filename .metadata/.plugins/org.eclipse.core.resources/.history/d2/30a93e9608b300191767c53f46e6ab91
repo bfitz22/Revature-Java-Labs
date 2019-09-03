@@ -1,0 +1,17 @@
+package yourworkhere;
+
+public class Account {
+	public static void main(String[] args) {
+		private String accountID;
+		private double balance;
+		private String accountType;
+		private String firstName;
+		private String lastName;
+	}
+	
+	public String getAccountID() {
+		return this.accountID();
+	}
+	
+	
+}

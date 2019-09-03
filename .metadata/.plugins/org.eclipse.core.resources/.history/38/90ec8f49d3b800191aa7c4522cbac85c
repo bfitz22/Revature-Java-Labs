@@ -1,0 +1,19 @@
+package com.Brian;
+
+public class Node {
+	Node next;
+	int data; 
+	
+	public Node() {
+		this.data = 1; 
+	}
+	
+	public void add(LinkedList list) {
+		Node newNode = new Node();
+		Node current = list.head;
+		while (current.next != null) {
+			current = current.next;
+		}
+		current.next = newNode;
+	}
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textEntries">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\bffit\Documents\workspace\Lab-ImplementPalindrome.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Project.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Exception.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Map.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-DefaultInterface.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Set.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-ArrayList.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Abstraction.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-InstanceOf.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Polymorphism.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Polymorphism.&apos;zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Equals.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-HAS-A.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Inheritance.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Week2Day2Debug.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Abstract.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Inheritance-Error.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-Final.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Week2Day1Debug.zip"/>
+			<item value="C:\Users\bffit\Documents\workspace\Lab-ParsingInput.zip"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="762"/>
+		<item key="DIALOG_Y_ORIGIN" value="289"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\bffit\Downloads\Lab-InstanceOf.zip"/>
+		</list>
+	</section>
+</section>

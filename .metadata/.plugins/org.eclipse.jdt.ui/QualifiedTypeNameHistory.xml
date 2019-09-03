@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.revature.model.ActionFigure"/>
+    <fullyQualifiedTypeName name="com.yourname.CheckingAccount"/>
+    <fullyQualifiedTypeName name="com.yourname.SavingsAccount"/>
+    <fullyQualifiedTypeName name="com.Brian.model.Package"/>
+    <fullyQualifiedTypeName name="com.Brian.builders.Assembler"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.Brian.interfaces.Packager"/>
+    <fullyQualifiedTypeName name="com.Brian.model.Content"/>
+    <fullyQualifiedTypeName name="com.Brian.model.Color"/>
+    <fullyQualifiedTypeName name="com.Brian.model.Dimension"/>
+    <fullyQualifiedTypeName name="com.Brian.assemblers.MyAssembler"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>
